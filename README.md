@@ -1,5 +1,22 @@
 # datafun-05-sql
 
+## Custom Project
+
+For this project, I used SQL and Python to analyze related retail data. I modified the SQL query to sort stores by employee count in ascending order so I could identify the stores with the fewest employees.
+
+### What I Changed
+- Changed the SQL query to order employee counts from lowest to highest.
+- Updated the visualization title to "Stores with the Fewest Employees."
+- Ran the project successfully and reviewed the resulting visualization.
+
+### Skills Demonstrated
+- SQL queries
+- Relational data
+- JOIN operations
+- Python
+- Data visualization
+- Git and GitHub
+
 [![Workflow Guide](https://img.shields.io/badge/Pro--Guide-pro--analytics--02-green)](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](./pyproject.toml)
 [![uv managed](https://img.shields.io/badge/uv-managed-DE5FE9)](https://docs.astral.sh/uv/)
