@@ -148,7 +148,7 @@ GROUP BY
     r.region_name,
     s.store_name
 ORDER BY
-    employee_count DESC;
+employee_count ASC;
 """
 
 # === CHOOSE A VISUALIZATION ===
@@ -273,7 +273,7 @@ def main() -> None:
     )
 
     # CUSTOM: The analyst can customize the returned Matplotlib Axes object.
-    employee_ax.set_title("Employees by Store")
+    employee_ax.set_title("Stores with the Fewest Employees")
     employee_ax.set_xlabel("Store")
     employee_ax.set_ylabel("Number of Employees")
 
